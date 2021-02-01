@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  background: 50vw 50vh no-repeat url("../images/bg-pattern-bottom.svg"),
+    right 50vw bottom 50vh no-repeat url("../images/bg-pattern-top.svg"),
+    #19a2ae;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 1rem;
+  width: 18rem;
+  margin: 1rem;
+}
+
+.card-pattern {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.info {
+  margin: 4rem 0 2rem 0;
+  text-align: center;
+}
+
+.info p:first-child {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.info span {
+  font-weight: 200;
+}
+
+.info p:last-child {
+  font-weight: 200;
+}
+
+.stats {
+  border-top: 1px solid lightgray;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 1.5rem;
+}
+
+.stats div {
+  flex: 1;
+}
+
+.stats p:first-child {
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.stats p:last-child {
+  font-weight: 200;
+  font-size: 11px;
+}
+
+.profile-pic {
+  position: absolute;
+  width: 5rem;
+  top: 33%;
+  left: 50%;
+  margin-left: -2.5rem;
+  margin-top: -2.5rem;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 1rem;
+    margin: 0 2rem;
+    text-align: center;
+}
